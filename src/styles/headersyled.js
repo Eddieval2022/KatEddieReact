@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.div`
-  background-color: #478559;
+  background-color: #71a9f7;
   font-family: sans-serif;
   margin: -22px;
   padding: 20px;

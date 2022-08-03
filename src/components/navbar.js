@@ -1,5 +1,5 @@
 import { Link, Navigate } from "react-router-dom";
-import { LiStyled, NavStyled } from "./navbarstyled";
+import { LiStyled, NavStyled } from "../styles/navbarstyled";
 
 const Navbar = ({ user, setter }) => {
   return (
