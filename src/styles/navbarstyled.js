@@ -15,7 +15,7 @@ export const LiStyled = styled.li`
 cursor: pointer;
 transition: all 0.2s linear 0s;
 color: rgb(255, 255, 255);
-background-color: #478559;
+background-color: #71a9f7;
 height: 48px;
 width:100px;
 padding-top: 20px;
