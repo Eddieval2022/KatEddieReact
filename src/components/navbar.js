@@ -12,14 +12,12 @@ const Navbar = ({ user, setter }) => {
           <Link to="/home">Home</Link>
         </LiStyled>
         <LiStyled>
-          <Link to="/profile">Profile</Link>
+          <Link to="/about">About</Link>
         </LiStyled>
         <LiStyled>
-          <Link to="/feed">Feed</Link>
+          <Link to="/contact">Contact</Link>
         </LiStyled>
-        <LiStyled>
-          <Link to="/contests">Contest</Link>
-        </LiStyled>
+        
         <LiStyled
           onClick={() => {
             setter();
