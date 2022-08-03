@@ -23,13 +23,13 @@ const Navbar = ({ user, setter }) => {
         }}
       >
         Log Out
-v
+v </LoginButs>
 
-      </NavStyled>
+    </NavStyled>
     
 
-      </LoginButs>
-
+     
+  
 
     </nav>
   );
