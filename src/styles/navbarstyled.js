@@ -5,18 +5,27 @@ export const LinkStyled = styled(Link)`
   color: #1c41b0;
   padding: 10px;
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+`;
+
+export const NavButton = styled.button`
+  color: #1c41b0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
 `;
 
 export const NavStyled = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
- 
   margin: 45px;
-  font-size: 20px;
-  font-weight: bold;
   padding-bottom: 45px;
 `;
+
 // export const LiStyled = styled.li`
 //   cursor: pointer;
 //   transition: all 0.2s linear 0s;
