@@ -7,14 +7,16 @@ export const LinkStyled = styled(Link)`
   text-decoration: none;
 `;
 
-// export const NavStyled = styled.ul`
-//   display: flex;
-//   justify-content: space-between;
-//   margin: 35px;
-//   flex-direction: row;
-//   cursor: pointer;
-//   border-radius: 5px;
-// `;
+export const NavStyled = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  cursor: pointer;
+  margin: 45px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 45px;
+`;
 // export const LiStyled = styled.li`
 //   cursor: pointer;
 //   transition: all 0.2s linear 0s;
