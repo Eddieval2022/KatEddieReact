@@ -1,9 +1,9 @@
-import { HeaderStyle, HeaderH1, HeaderH2 } from "./headersyled";
+import { HeaderStyle, HeaderH1, HeaderH2 } from "../styles/headersyled";
 
 const Header = () => {
   return (
     <HeaderStyle>
-      <HeaderH1>React practice</HeaderH1>
+      <HeaderH1>K&E</HeaderH1>
       <HeaderH2>Developed by Kat & Eddie</HeaderH2>
     </HeaderStyle>
   );

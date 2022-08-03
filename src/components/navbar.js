@@ -1,35 +1,26 @@
-import { Link, Navigate } from "react-router-dom";
-import { LiStyled, NavStyled } from "./navbarstyled";
+import { Navigate } from "react-router-dom";
+import { LinkStyled, NavStyled } from "../styles/navbarstyled";
 
 const Navbar = ({ user, setter }) => {
   return (
     <nav>
       {!user && <Navigate to="/" />}
-      
       <NavStyled>
-      
-        <LiStyled>
-          <Link to="/home">Home</Link>
-        </LiStyled>
-        <LiStyled>
-          <Link to="/profile">Profile</Link>
-        </LiStyled>
-        <LiStyled>
-          <Link to="/feed">Feed</Link>
-        </LiStyled>
-        <LiStyled>
-          <Link to="/contests">Contest</Link>
-        </LiStyled>
-        <LiStyled
-          onClick={() => {
-            setter();
-            localStorage.removeItem("myToken");
-          }}
-        >
-          Log Out
-        </LiStyled>
-      
-    </NavStyled>
+      <LinkStyled to="/home">Home</LinkStyled>
+      <LinkStyled to="/about">About</LinkStyled>
+      <LinkStyled to="/kat">Kat</LinkStyled>
+      <LinkStyled to="/eddie">Eddie</LinkStyled>
+      <LinkStyled to="/contact">Contact</LinkStyled>
+      <button
+        onClick={() => {
+          setter();
+          localStorage.removeItem("myToken");
+        }}
+      >
+        Log Out
+      </button>
+      </NavStyled>
+    
     </nav>
   );
 };
