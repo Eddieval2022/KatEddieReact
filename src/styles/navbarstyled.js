@@ -16,6 +16,7 @@ export const NavButton = styled.button`
   font-weight: bold;
   background-color: white;
   border: none;
+  cursor: pointer;
 `;
 
 export const NavStyled = styled.div`

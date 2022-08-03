@@ -8,6 +8,7 @@ import { TheApp, Content } from "./styles/appstyled";
 // import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+// import Navbar from "./components/navbar";
 
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
       
       <BrowserRouter>
       <Header/>
+      {/* {user && <Navbar />} */}
+
       <Content>
         <Routes>
           <Route path="/" element={<Login setter={setUser} user={user} />} />
