@@ -1,5 +1,10 @@
 import { Navigate } from "react-router-dom";
+
 import { LinkStyled, NavStyled } from "../styles/navbarstyled";
+
+import { LoginButs } from "../styles/appstyled";
+
+
 
 const Navbar = ({ user, setter }) => {
   return (
@@ -11,16 +16,21 @@ const Navbar = ({ user, setter }) => {
       <LinkStyled to="/kat">Kat</LinkStyled>
       <LinkStyled to="/eddie">Eddie</LinkStyled>
       <LinkStyled to="/contact">Contact</LinkStyled>
-      <button
+      <LoginButs
         onClick={() => {
           setter();
           localStorage.removeItem("myToken");
         }}
       >
         Log Out
-      </button>
+v
+
       </NavStyled>
     
+
+      </LoginButs>
+
+
     </nav>
   );
 };
