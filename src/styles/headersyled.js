@@ -1,22 +1,21 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.div`
-  background-color: #71a9f7;
-  font-family: sans-serif;
-  margin: -22px;
+  color: #1c41b0;
   padding: 20px;
 `;
 //want to fix margin -25px
 
 export const HeaderH1 = styled.div`
   text-align: left;
-  color: white;
+  font-family: "Snell Roundhand", "cursive";
+
   font-size: 300%;
+  padding: 10px;
 `;
 
 export const HeaderH2 = styled.div`
   text-align: right;
-  color: white;
   font-size: 100%;
   padding: 10px;
 `;
