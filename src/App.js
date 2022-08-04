@@ -4,7 +4,7 @@ import Login from "./pages/login";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import { TheApp, Content } from "./styles/appstyled";
+import { TheApp, Content, Background } from "./styles/appstyled";
 // import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <TheApp>
-      
+      <Background>
       <BrowserRouter>
       <Header/>
       {/* {user && <Navbar />} */}
@@ -32,9 +32,11 @@ const App = () => {
          <Route path="/eddie" element={<Eddie user = {user} />} />
          <Route path="/kat" element={<Kat user = {user} />} />
         </Routes>
+
        </Content>
       </BrowserRouter>
        <Footer/>
+       </Background>
     </TheApp>
   );
 };
