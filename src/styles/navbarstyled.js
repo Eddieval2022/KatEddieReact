@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const LinkStyled = styled(Link)`
-  color: #1c41b0;
+  color: #0B4A79;
   padding: 10px;
   text-decoration: none;
   font-size: 30px;
@@ -11,7 +11,6 @@ export const LinkStyled = styled(Link)`
 `;
 
 export const NavButton = styled.button`
-  color: #1c41b0;
   text-decoration: none;
    font-size: 30px;
    font-weight: bold;

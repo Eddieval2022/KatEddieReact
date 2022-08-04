@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
-color: #1c41b0;
+color: #0B4A79;
   padding: 10px;
   font-family: sans-serif;
 `;
