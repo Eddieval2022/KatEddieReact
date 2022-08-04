@@ -6,15 +6,16 @@ export const LinkStyled = styled(Link)`
   padding: 10px;
   text-decoration: none;
   font-size: 20px;
-  font-weight: bold;
+ font-weight: bold;
+  margin: 25px;
 `;
 
 export const NavButton = styled.button`
   color: #1c41b0;
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  background-color: white;
+   font-size: 20px;
+   font-weight: bold;
+  background-color: transparent;
   border: none;
   cursor: pointer;
 `;
@@ -23,8 +24,9 @@ export const NavStyled = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin: 45px;
+  margin: 5px;
   padding-bottom: 45px;
+  
 `;
 
 // export const LiStyled = styled.li`
