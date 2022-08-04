@@ -1,12 +1,18 @@
 import styled from "styled-components";
-
+import myImage from "../images/Back.jpg"
 export const TheApp = styled.div`
   text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.6)
+  ), url(${myImage});
+ 
 `;
 
 export const LoginButs = styled.button`
   font-family: sans-serif;
-  background-color: white;
+  background-color: transparent;
   border: none;
   color: #1c41b0;
   padding: 15px 32px;

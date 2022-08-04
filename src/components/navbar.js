@@ -8,11 +8,13 @@ const Navbar = ({ user, setter }) => {
     <nav>
       {!user && <Navigate to="/" />}
       <NavStyled>
+        <div>
         <LinkStyled to="/home">Home</LinkStyled>
         <LinkStyled to="/about">About</LinkStyled>
         <LinkStyled to="/kat">Kat</LinkStyled>
         <LinkStyled to="/eddie">Eddie</LinkStyled>
         <LinkStyled to="/contact">Contact</LinkStyled>
+        </div>
         <NavButton
           onClick={() => {
             setter();

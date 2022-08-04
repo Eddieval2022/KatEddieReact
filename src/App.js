@@ -8,6 +8,8 @@ import { TheApp, Content } from "./styles/appstyled";
 // import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Eddie from "./pages/eddie";
+import Kat from "./pages/kat";
 // import Navbar from "./components/navbar";
 
 
@@ -27,7 +29,8 @@ const App = () => {
           <Route path="/home" element={<Home user={user} setter={setUser} />} />
           <Route path="/about" element={<About user={user} />} />
           <Route path="/contact"element={<Contact user={user} />} />
-         
+         <Route path="/eddie" element={<Eddie user = {user} />} />
+         <Route path="/kat" element={<Kat user = {user} />} />
         </Routes>
        </Content>
       </BrowserRouter>
