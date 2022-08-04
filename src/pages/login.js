@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
 import { signUp, tokenFetch } from "../utils";
-import { LogForm, LoginButs } from "../styles/appstyled";
+import { LogForm, LoginButs, Input } from "../styles/appstyled";
 
 const Login = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -23,17 +23,17 @@ const Login = ({ setter, user }) => {
     <LogForm>
       {user && <Navigate to="/home" />}
       <form onSubmit={submitHandler}>
-        <input
+        <Input
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Username"
         />
         {!logBool && (
-          <input
+          <Input
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
           />
         )}
-        <input
+        <Input
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Password"
           type="password"
