@@ -27,7 +27,7 @@ export const NavStyled = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin: 15px;
+  margin: 20px;
   padding-bottom: 45px;
   
 `;

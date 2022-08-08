@@ -1,9 +1,10 @@
-import { HeaderStyle, HeaderH1, HeaderH2 } from "../styles/headersyled";
+import { HeaderStyle,  HeaderH2 } from "../styles/headersyled";
+import image from "../images/LOGO.png"
 
 const Header = () => {
   return (
     <HeaderStyle>
-      <HeaderH1>K&E</HeaderH1>
+      <img src={image} alt="logo" />
       <HeaderH2>Developed by Kat & Eddie</HeaderH2>
     </HeaderStyle>
   );
