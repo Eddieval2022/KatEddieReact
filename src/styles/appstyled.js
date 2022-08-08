@@ -10,7 +10,7 @@ export const Background = styled.div`
 background-image: linear-gradient(
   to bottom,
   rgb(255, 255, 255, 0.99),
-  rgba(255, 255, 255, 0.85)
+  rgba(255, 255, 255, 0.9)
 ), url(${myImage});
 
 `

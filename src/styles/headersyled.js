@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
+
 export const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
 color: #0B4A79;
   padding: 10px;
   font-family: sans-serif;
+  height: 70px;
 `;
 //want to fix margin -25px
 
